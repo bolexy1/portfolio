@@ -1,0 +1,283 @@
+/*default browser reset code*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+
+
+/*my code*/
+.new {
+    display: flex;
+    height: 750px;
+    
+    background-color:white;
+
+}
+.new div {
+    /* Equal initial size for both columns */
+    flex-grow: 1;
+    /* Optional: Add padding or other styling as needed */
+    padding: 1px;
+    border: px solid white;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    width:15%;
+    background-color:;
+    
+    
+ 
+      
+}
+.img {
+    height:250px;
+    width:fit-content;
+    margin:-2px 0px 0px -2px;
+}
+
+
+.text { 
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ffc400;
+    line-height: 81px;
+}
+
+.text a:hover {
+    color:white;
+    transform: scale(1.1);    
+}
+
+/*center column*/
+.center {
+    display: flex;
+    width:75%;
+    flex-direction: column;
+    border: 1px;
+    justify-content: space-around;
+    padding: 10px 20% 0px 10%;
+    
+}
+
+.about {
+        margin-left: 90px;
+        max-height: 200px;
+        
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 750;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid #111;
+    margin: 7% 0% 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    inline-size: 1050px;
+    
+}
+.sub  {
+     width: 1050px;
+     max-height: 70px;
+     margin-top: 30px;
+     margin-left: 100px;
+     margin-bottom: 50px;
+     color: #111;
+     
+}
+
+.head{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight:100;
+    margin-bottom: 20px;
+    color: #111;
+    
+}
+
+.x {
+    line-height: 20px;
+    font-size: 14px;
+    color:black;
+}
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column-wise;
+    width:1050px;
+    justify-content: center;
+    margin-left: 100px;
+              
+}
+
+.contleft {
+    display: flex;
+    flex-direction: column-wise;
+    width: 60%;
+    background-color:black;
+    height:340px;
+}
+
+.subleft{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    text-align: center ;
+    
+}
+.one {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-radius: 30px;
+    
+}
+.two{
+    width:100%;
+    
+    
+}
+.subright{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    text-align: center;
+    border-left: 1px solid #ccc;
+
+}
+
+.three{
+    width:100%;
+
+}
+
+.four{
+    width:100%;
+    border-top: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+h3 {
+    font-size: 60px;
+    padding-top: 45px;
+    color:#ffc400
+
+   
+}
+
+p {
+    color: #CCC;
+}
+.contright{
+    width:50%;
+    background-color:white;
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.icon-left{
+    width: 25%;
+    height: 80px;
+    margin-left:30px ;
+    
+}
+
+.text-right {
+    width:70%;
+    height: 80px;
+}
+
+.y{
+    color:#111;
+    padding-top: 10px;
+    line-height: 18px;
+    text-align: justify;
+}
+    
+    /*right column*/
+.right {
+   
+
+}
+
+.sm  {
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    margin:220px 20px 0px;
+    height: 250px;
+    background-color:#ffc400;
+    border-radius: 20px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+
+
+a:hover {
+    fill:#CCC;
+    transform: scale(1.3);    
+}
+
+    
+.svg {
+    transition:fill 0.3s ;    
+}
+
+
+.icon-index {
+    padding-bottom: 10px;
+}
+
+
+
